@@ -18,7 +18,7 @@ function CheckStatusCode() {
       {status == null && (
         <p>❔Testing your network condition...</p>
       )}
-      {status !== null && status == 200 && (
+      {status !== null && status === 200 && (
         <p>✅You can now access kiwi sites! <br />
           <a href='https://emby.kiwi.moe/' className='App-link'>🎬Emby</a> | <a href='https://drive.kiwi.moe/' className='App-link'>☁️Drive</a>
         </p>
