@@ -37,7 +37,7 @@ function CheckStatusCode() {
 
   return (
     <div>
-      <a href="https://read.kiwi.moe/" className="App-link">
+      <a href="https://pdf.kiwi.moe/" className="App-link">
         📄PDF Reader
       </a>
       {status == null && <p>❔Testing your network condition...</p>}
